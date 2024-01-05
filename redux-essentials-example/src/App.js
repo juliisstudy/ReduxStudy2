@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import PostsList from './features/posts/PostList';
-import AddPostForm from './features/posts/AddPostForm';
+import Counter from './features/counter/Counter';
+import PostList from './features/posts/PostList';
+
 function App() {
   return (
     <div className="App">
-      <AddPostForm/>
-      <PostsList />
-        
+    {/*<Counter />*/} 
+        <PostList/>
     </div>
   );
 }
